@@ -28,13 +28,13 @@ module.exports = {
                 client.prefix
             }help <cmd>\nto view the command info`
             const url =
-                'https://i.ibb.co/LZ2w0Fv/IMG-20230406-WA0012.jpg'
+                'https://i.ibb.co/R3qDDpV/20230412-224901.jpg'
             const buffer = await client.utils.getBuffer(url)
             await client.sendMessage(
                 M.from,
                 {
-                    Image: {
-                        url: 'https://i.ibb.co/LZ2w0Fv/IMG-20230406-WA0012.jpg'
+                    video: {
+                        url: 'https://i.ibb.co/SNkmTLX/pentol-stiker.gif'
                     },
                     gifPlayback: true,
                     caption: message,
