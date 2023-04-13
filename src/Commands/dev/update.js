@@ -7,7 +7,7 @@ module.exports = {
     async execute(client, arg, M) {
         M.reply('Updating...')
         await client.utils
-            .term('git remote set-url origin https://github.com/Deep-Eagle/Queen-Hero.git && git pull origin main')
+            .term('git remote set-url origin https://github.com/ALPHAkaveen/yakuza-md.git && git pull origin main')
             .then((res) => M.reply(res))
             .catch((err) => M.reply(err.message))
     }
