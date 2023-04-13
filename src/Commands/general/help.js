@@ -22,13 +22,13 @@ module.exports = {
                 )}*\n\n${categories[category].map((cmd) => `• _${client.prefix}${cmd}_`).join('\n')}\n`
             }
 
-            const message = `~ <× [ *—͟͞͞Qᴜᴇᴇɴ ʜᴇʀᴏ* ] ×> ~\n\n*Hey 👋 ${
+            const message = `~ <× [ *—͟͞͞𝚢𝚊𝚔𝚞𝚣𝚊 𝙼𝙳* ] ×> ~\n\n*Hey 👋 ${
                 M.pushName
-            } (>❤️ω❤️)>*\n*I am Qᴜᴇᴇɴ ʜᴇʀᴏ WhatsApp use a bot *\n*I am here to make*\n*ᴅᴇᴇᴘ ᴇᴀɢʟᴇ WhatsApp* 🎋\n*experience better ~*\n\n*————↝ LINKS ↜————*\n\n*Please fork and star* ⭐️\n*my repo and don’t forget to* \n*like my video tutorial 🍃*\n\n🥢 *official website:*\nlksons.com\n\n⛩ *Subscribe My you tube channel* \n*YT_URL*\n\n💈 *Link:*\nyoutube.com/@DeepEagle\n\n*🎐COMMANDS🎐*\n\n${commands}\n🗃️ *Note:* Use ${
+            } (>❤️ω❤️)>*\n*𝙷𝙸 𝚒 𝚖 𝚢𝚊𝚔𝚞𝚣𝚊 𝙼𝙳 WhatsApp use a bot *\n*𝙸 𝚊𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚖𝚊𝚔𝚎*\n*ᴅᴇᴇᴘ ᴇᴀɢʟᴇ WhatsApp* 🎋\n*experience better ~*\n\n*————↝ LINKS ↜————*\n\n*Please fork and star* ⭐️\n*my repo and don’t forget to* \n*like my video tutorial 🍃*\n\n🥢 *official website:*\ncoming soon\n\n⛩ *Subscribe My you tube channel* \n*YT_URL*\n\n💈 *Link:*\ncoming soon\n\n*🎐COMMANDS🎐*\n\n${commands}\n🗃️ *Note:* Use ${
                 client.prefix
             }help <cmd>\nto view the command info`
             const url =
-                'https://i.ibb.co/R3qDDpV/20230412-224901.jpg'
+                'https://i.ibb.co/LZ2w0Fv/IMG-20230406-WA0012.jpg'
             const buffer = await client.utils.getBuffer(url)
             await client.sendMessage(
                 M.from,
@@ -40,8 +40,8 @@ module.exports = {
                     caption: message,
                     contextInfo: {
                         externalAdReply: {
-                            title: 'WhatsApp Bot',
-                            body: 'QueenHero wbot by Das',
+                            title: '𝙷𝙸 𝚒 𝚖 𝚢𝚊𝚔𝚞𝚣𝚊 𝙼𝙳',
+                            body: '𝙷𝙸 𝚒 𝚖 𝚢𝚊𝚔𝚞𝚣𝚊 𝙼𝙳',
                             sourceUrl: 'shorturl.at/gvU39',
                             thumbnail: buffer,
                             mediaType: 1
