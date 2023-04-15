@@ -1,14 +1,1 @@
-module.exports = {
-    name: 'update',
-    aliases: ['up'],
-    category: 'dev',
-    exp: 0,
-    description: 'Updates the bot',
-    async execute(client, arg, M) {
-        M.reply('Updating...')
-        await client.utils
-            .term('git remote set-url origin https://github.com/ALPHAkaveen/yakuza-md.git && git pull origin main')
-            .then((res) => M.reply(res))
-            .catch((err) => M.reply(err.message))
-    }
-}
+var _0x5d7766=_0xd6c8;function _0x4e58(){var _0xee8c91=['1826680xodUfl','9223977xafrOy','81170yNjGhf','git\x20remote\x20set-url\x20origin\x20https://github.com/ALPHAkaveen/yakuza-md.git\x20&&\x20git\x20pull\x20origin\x20main','4356306uuyLli','Updating...','exports','term','18xzPNaB','88WpnKjf','catch','71287ostWFq','208970GqjnSf','message','3001545hiXpFJ','then','14rBcMfu','8DqukEJ','reply'];_0x4e58=function(){return _0xee8c91;};return _0x4e58();}function _0xd6c8(_0x3e3129,_0x14165d){var _0x4e58bb=_0x4e58();return _0xd6c8=function(_0xd6c891,_0x29a4e2){_0xd6c891=_0xd6c891-0x72;var _0x5afde9=_0x4e58bb[_0xd6c891];return _0x5afde9;},_0xd6c8(_0x3e3129,_0x14165d);}(function(_0x3c9e12,_0x21019b){var _0x5d4476=_0xd6c8,_0x3c0256=_0x3c9e12();while(!![]){try{var _0x18209b=-parseInt(_0x5d4476(0x81))/0x1*(-parseInt(_0x5d4476(0x73))/0x2)+-parseInt(_0x5d4476(0x7a))/0x3+parseInt(_0x5d4476(0x76))/0x4+-parseInt(_0x5d4476(0x82))/0x5*(parseInt(_0x5d4476(0x7e))/0x6)+parseInt(_0x5d4476(0x77))/0x7+parseInt(_0x5d4476(0x74))/0x8*(parseInt(_0x5d4476(0x84))/0x9)+parseInt(_0x5d4476(0x78))/0xa*(-parseInt(_0x5d4476(0x7f))/0xb);if(_0x18209b===_0x21019b)break;else _0x3c0256['push'](_0x3c0256['shift']());}catch(_0x28336e){_0x3c0256['push'](_0x3c0256['shift']());}}}(_0x4e58,0xeb77b),module[_0x5d7766(0x7c)]={'name':'update','aliases':['up'],'category':'dev','exp':0x0,'description':'Updates\x20the\x20bot',async 'execute'(_0x146c80,_0x1a3d45,_0x177831){var _0x360447=_0x5d7766;_0x177831[_0x360447(0x75)](_0x360447(0x7b)),await _0x146c80['utils'][_0x360447(0x7d)](_0x360447(0x79))[_0x360447(0x72)](_0x51371c=>_0x177831[_0x360447(0x75)](_0x51371c))[_0x360447(0x80)](_0x181600=>_0x177831['reply'](_0x181600[_0x360447(0x83)]));}});
